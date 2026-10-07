@@ -23,6 +23,37 @@
             <a href="integrantes.html">Integrantes</a>
         </nav>
     </header>
+    <main>
+        <section>
+            <p>Contato</p>
+            <h1>Fale com o grupo</h1>
+        </section>
+        <section>
+            <form class="formulario" action="contato.html" method="get">
+                <h2>Envie uma mensagem</h2>
+                    <div>
+                        <label for="name">Nome</label>
+                        <input required type="text" id="name" name="name" placeholder="Digite seu nome">
+                    </div>
+                    <div>
+                        <label for="email" class="label">Email</label>
+                        <input inputmode="email" required type="email" id="email" name="email" placeholder="Digite seu email"> <!-- Required - Declara que é obrigatório -->
+                    </div>
+                    <div>
+                        <label for="assunto">Assunto</label>
+                        <select id="assunto" name="assunto">
+                            <option value="">Escolha um assunto</option>
+                            <option value="duvida">Dúvida sobre o projeto</option>
+                            <option value="sugestao">Sugestão</option>
+                            <option value="outro">Outro assunto</option>
+                        </select>
+                    </div>
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva aqui"></textarea>
+                <button class="botao" type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
     <footer>
         <section>
             <p>Sorriso Recorrente · Challenge FIAP × Turma do Bem · 1TDS</p>
