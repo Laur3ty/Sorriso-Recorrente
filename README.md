@@ -8,7 +8,7 @@ O **Sorriso Recorrente** é uma plataforma para a **Turma do Bem** transformar d
 
 ## Link público no GitHub
 
-[colar aqui o link do repositório]
+[Sorriso Recorrente](https://github.com/Laur3ty/Sorriso-Recorrente)
 
 ## Integrantes
 
